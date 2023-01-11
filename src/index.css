@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300;1,400;1,500&family=Roboto+Slab&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+/* form */
+
+.form-step{
+  width: 400px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 0.35rem;
+  padding: 1.5rem;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+input,select{
+  display: block;
+  width: 90%;
+  padding: 0.75rem;
+  border-radius: 0.25rem;
+  border: 1px solid #ccc;
+}
+
+label{
+  margin-bottom: 0.2rem;
+  display: block;
+}
+
+.input-group{
+  margin: 2rem 0;
+}
+
+.btn{
+  padding: 0.75rem;
+  display: block;
+  text-decoration: none;
+  background-color: white;
+  color: blue;
+  border: 2px solid blue;
+  text-align: center;
+  border-radius:0.25rem;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.btns-group{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+.btn:hover{
+  background-color: blue;
+  color: white;
+}
+
+.input-gender{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  height: 13px;
+  padding: 0;
+  margin: 0;
+  width: 50%;
+  gap: 5px;
+  box-sizing: border-box;
+}
+
+.input-checkbox{
+  display:flex;
+ margin-bottom: 23px;
+ height: 20px;
+ width: 33%;
+
+}
+
+/* Progress Bar */
+
+.progressbar {
+  width: 350px;
+  height: 12px;
+  background-color: white;
+  margin-bottom: 5px;
+  }
+
+.progressbar div {
+  height: 100%;
+  background-color: rgb(98, 0, 255);
+  border-radius: 5px;
+
+}
+
